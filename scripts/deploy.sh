@@ -18,5 +18,5 @@ echo "Deploying to GitHub Pages..."
 npx gh-pages -d out -t
 
 echo "Deployment complete!"
-echo "Your site will be available at: https://[username].github.io/next-ads-sample-4/"
+echo "Your site will be available at: https://[username].github.io/-next-ads-sample-4/"
 echo "Note: It may take a few minutes for changes to appear."

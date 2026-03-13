@@ -82,8 +82,8 @@ This project uses Next.js **static export** (`output: 'export'` in next.config.m
 
 ```javascript
 output: 'export'                     // Static export mode
-basePath: '/next-ads-sample-4'      // Repository name
-assetPrefix: '/next-ads-sample-4'   // Asset URL prefix
+basePath: '/-next-ads-sample-4'      // Repository name (note leading hyphen)
+assetPrefix: '/-next-ads-sample-4'   // Asset URL prefix (note leading hyphen)
 images: { unoptimized: true }        // Required for static export
 ```
 
@@ -150,7 +150,7 @@ theme: {
 ```bash
 npm run build                    # Build to out/
 npx serve out                    # Serve locally on port 3000
-# Visit http://localhost:3000/next-ads-sample-4/
+# Visit http://localhost:3000/-next-ads-sample-4/
 ```
 
 Note: Must include basePath in URL when testing locally.
